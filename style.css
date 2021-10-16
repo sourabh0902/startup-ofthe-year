@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  
+  background: url(bg.jpg) no-repeat center center fixed; /*Used this line to fix our image in perfect center */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2f0ff;
+}
+
+hr {
+  border-color: #B3543E;
+  border-width: 3px;
+  max-width: 60px;
+}
+
+.buffer {
+  height: 10.2rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+.btn-primary {
+  background-color: #B3543E ;
+  border-color: #B3543E;
+}
+
+.btn-primary:hover {
+  background-color: #8E321C;
+  border-color: #8E321C;
+  border-width: 3px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
